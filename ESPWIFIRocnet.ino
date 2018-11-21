@@ -164,7 +164,7 @@ void Status(){
  
   Serial.println("-----------------------------------------------------------");
   Serial.println("-----------------------------------------------------------");
-  Serial.println(  "                  ESPWIFIROCNET V4    "); 
+  Serial.println(  "                  ESPWIFIROCNET V5    "); 
   Serial.println("-----------------------------------------------------------");
   Serial.print(  "                    revision:");
   Serial.print(SW_REV); Serial.println();

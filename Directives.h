@@ -27,10 +27,10 @@
 //--- These are set depending on the two defines above..
 // I could probably be cleverer with this set!! but they work
 #ifdef _AudioNoDAC
-#define _Audio // sets some common audio compiler stuff
+#define _Audio 1 // sets some common audio compiler stuff
 #endif
 #ifdef _AudioDAC
-#define _Audio // sets some common audio compiler stuff
+#define _Audio 1 // sets some common audio compiler stuff
 #endif
 #ifdef _Audio              //RX/D9, D8, and D4 pins.defined below    
     #define I2SDAC_LRC 4  // D4 is used in no dac because of default i2s settings (is i2s clock?) but can be used as input if you need the pin in no dac..

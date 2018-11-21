@@ -1,6 +1,6 @@
 
-
 #include "Chuff.h"
+#include "Directives.h";
 
 #ifdef _Audio
   #include "AudioFileSourceSPIFFS.h"
@@ -8,7 +8,7 @@
   #include "AudioOutputMixer.h"
 #endif 
 
-#include "Directives.h";
+
 #ifdef _AudioDAC
   #include "AudioOutputI2SDAC.h"
 #endif
